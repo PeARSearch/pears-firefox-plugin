@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "PeARS",
+  "version": "0.0.1",
+  "description": "PeARS search engine browser extension",
+  "icons": {
+    "48": "icons/pears-48.png",
+    "96": "icons/pears-96.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "background": {
+    "matches": ["<all_urls>"],
+    "scripts": ["background.js"]
+  },
+  "applications": {
+    "gecko": {
+      "id": "some_email@pearsearch.org"
+    }
+  },
+  "page_action": {
+    "default_icon": "icons/pears-32.png",
+    "default_text": "Track in PeARS"
+  }
+}

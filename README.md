@@ -1,2 +1,3 @@
-# pears-firefox-plugin
-Firefox plugin for PeARS
+# PeARS Browser Extension
+
+WebExtension based browser plugin for PeARS.
